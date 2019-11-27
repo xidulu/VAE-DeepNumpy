@@ -1,7 +1,10 @@
 # VAE-DeepNumpy
-Implementation of Variational Autoencoder with DeepNumpy
+Implementation of Variational Autoencoder with DeepNumpy.
 
-`MXNET_USE_FUSION=0 python np_vae.py` 
+Most of the Model definition is borrowed from https://gluon.mxnet.io/chapter13_unsupervised-learning/vae-gluon.html#Implementing-a-Gaussian-VAE
+
+
+Type `MXNET_USE_FUSION=0 python np_vae.py` for training.
 
 No idea why `MXNET_USE_FUSION=0` is necessary,
 simply following the back trace:
